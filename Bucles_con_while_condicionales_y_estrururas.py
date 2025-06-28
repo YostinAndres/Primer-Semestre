@@ -236,13 +236,12 @@
 
 # estudiantes = {}
 
-# nombre = input("Nombre del estudiante (o 'fin' para terminar): ")
+# nombre = input("Nombre del estudiante (escribe 'fin' para terminar): ")
 
 # while nombre != "fin":
-#     nota = float(input(f"Nota final de {nombre}: "))
+#     nota = float(input("Nota final: "))
 #     estudiantes[nombre] = nota
-#     nombre = input("Nombre del estudiante (o 'fin' para terminar): ")
+#     nombre = input("Nombre del estudiante (escribe 'fin' para terminar): ")
 
-# print("\nNotas finales:")
-# for nombre, nota in estudiantes.items():
-#     print(f"{nombre}: {nota}")
+# print("Notas registradas:")
+# print(estudiantes)
